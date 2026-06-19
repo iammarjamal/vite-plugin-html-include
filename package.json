@@ -1,0 +1,48 @@
+{
+  "name": "vite-plugin-html-include",
+  "version": "1.0.0",
+  "description": "A zero-config Vite plugin for HTML partials. It replaces <include> tags with file contents at build time.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "Ammar <hi@iammarjamal.me> (https://github.com/iammarjamal)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammarjamal/vite-plugin-html-include.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iammarjamal/vite-plugin-html-include/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "vite": ">=5"
+  },
+  "devDependencies": {
+    "vite": "^7.3.5",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "html",
+    "include",
+    "partial"
+  ],
+  "license": "MIT"
+}
